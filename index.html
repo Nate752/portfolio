@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="./scripts/navfunction.js"></script>
 </head>
+
 <body>
-    <header>
-        <img src="./images/personal_logo.PNG" alt="Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
+    <div id="content">
 
-<img src="./images/vacations-1569608_1280.jpg" alt="Image of a plane in front of a city">
-<img src="./images/technology-1283624_1280.jpg" alt="Image of coding">
-
-<p>I am going to be filling this text out next assignment, need to think more.</p>
-
-<p>I am going to be filling this text out next assignment, need to think more.</p>
-
-    <footer>
-        <p>&copy; Nathan's Portfolio - 2022</p>
-        <a href="site-plan.html">Site Plan</a>
-    </footer>
+        <header>
+            <div class="logo">
+                <a id="logo_link" href="index.html">
+                    <img src="./images/personal_logo.PNG" alt="Logo">
+                </a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="javascript:void(0);" class="hicon" onclick="myFunction()">
+                    &#9776;
+                </a>
+            </div>
+        </header>
+        <div class="main">
+            <img class="city" src="./images/vacations-1569608_1280.jpg" alt="Image of a plane in front of a city">
+            <div class=" paragraphs_1">
+                <p>I am going to be filling this text out next assignment, need to think more.</p>
+                <p>I am going to be filling this text out next assignment, need to think more.</p>
+            </div>
+            <img class="coding" src="./images/technology-1283624_1280.jpg" alt="Image of coding">
+        <footer>
+            <p>&copy; Nathan's Portfolio - 2022</p>
+            <a href="site-plan.html">Site Plan</a>
+        </footer>
+    </div>
 </body>
+
 </html>
