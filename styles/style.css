@@ -4,8 +4,8 @@
   /* change the values below to your colors from your palette */
   --primary-color: #F77F00;
   --secondary-color: #003049;
-  --accent1-color: #D62828;
-  --accent2-color: #4697C3;
+  --accent1-color: #00AEEF;
+  --accent2-color: #D62828;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Permanent Marker";
@@ -32,23 +32,17 @@ body {
   font-family: var(--paragraph-font);
   font-size: 22px;
   margin: 0;
-  padding: 0;
-}
-
-#content {
-  margin: 0 auto;
-  max-width: 1600px;
 }
 
 /* HEADER CSS */
-header {
+header { 
+  text-align: center;
   background-color: var(--accent1-color);
 }
 
-.logo {
+header .logo {
   float: left;
-  width: 80px;
-  height: 49px;
+  width: 60px; 
 }
 
 .logo img {
@@ -93,17 +87,16 @@ header {
   display: none;
 }
 
-
-.main {
+.home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .city {
-  margin-left: 0;
   width: 100%;
-  height: 100%;
+  height: 650px;
   grid-column: 1;
+  margin: 30px 10px;
 }
 
 .main p {
@@ -112,15 +105,17 @@ header {
 
 .coding {
   width: 100%;
-  height: 100%;
+  height: 650px;
   grid-column: 3;
+  margin: 30px 10px;
+
 }
 
 footer {
   background-color: var(--accent1-color);
   color: black;
   padding: 27px 10px;
-  margin-top: 220px;
+  margin-top: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -132,9 +127,23 @@ footer a {
 
 .paragraph_1 {
   color: black;
+  border: 3px solid var(--accent2-color);
+  margin: 200px 30px;
+  padding: 20px 20px;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
 }
 
-
+.paragraph_2 {
+  color: black;
+  border: 3px solid var(--accent2-color);
+margin: 30px 20px;
+grid-column: 2;
+grid-row: 2;
+padding: 10px 10px;
+text-align: center;
+}
 
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
