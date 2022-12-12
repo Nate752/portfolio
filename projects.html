@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="./scripts/navfunction.js"></script>
 </head>
+
 <body>
-    <header>
-        <img src="./images/personal_logo.PNG" alt="Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
-<h1>Projects</h1>
-<img src="./images/Programming project.PNG" alt="Image of my programming project">
+    <div id="content">
 
-<p>I am going to be filling this text out next assignment, need to think more.</p>
-<img src="#" alt="Image of programming project">
+        <header>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="./images/personal_logo.PNG" alt="Logo">
+                </a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="javascript:void(0);" class="hicon" onclick="myFunction()">
+                    &#9776;
+                </a>
+            </div>
+        </header>
+        <main class="home-grid2">
+           <div class="h1_header1">
+            <h1>Projects</h1>
+           </div>
+        <img class="project_img" src="./images/Programming project.PNG" alt="A picture of my project">
+        <img class="web_project_img" src="./images/website_project_img.PNG" alt="A picture of my website project">
+        <div class="paragraph_5">
+            <p>This project relates to using python in this project to create a scene made from 2d drawing. Made Entirely from python codes.</p>
+        </div>
+        <div class="paragraph_6">
+            <p>This project relates to using python in this project to create a scene made from 2d drawing. Made Entirely from python codes.</p>
+        </div>
 
-<p>I am going to be filling this text out next assignment, need to think more. 
-    Also need to finish programming project for this image.</p>
 
-    <footer>
-        <p>&copy; Nathan's Portfolio - 2022</p>
-        <a href="site-plan.html">Site Plan</a>
-    </footer>
+        </main>
+        <footer>
+            <p>&copy; Nathan's Portfolio - 2022</p>
+            <a href="site-plan.html">Site Plan</a>
+        </footer>
+    
 </body>
+
 </html>
