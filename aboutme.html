@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="./scripts/navfunction.js"></script>
 </head>
+
 <body>
-    <header>
-        <img src="./images/personal_logo.PNG" alt="Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="projects.html">Projects</a>
-        </nav>
-    </header>
-<h1>About Me</h1>
-<img src="./images/my_photo.JPG" alt="An Image of me">
+    <div id="content">
 
-<p>I am going to be filling this text out next assignment, need to think more.</p>
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="./images/personal_logo.PNG" alt="Logo">
+            </a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="javascript:void(0);" class="hicon" onclick="myFunction()">
+                    &#9776;
+                </a>
+            </div>
+        </header>
+        <div class="h1_header">
+            <h1>About Me</h1>
+        </div>
+        <main class="home-grid2">
+            <div class="paragraph_3">
+                <p>Hello my name is Nathan Behm I am 19 years old and come from a family of 8. 
+                    I am from North Carolina and love to rock climb, go hiking, ride dirt bikes, anything outside. 
+                    I also enjoy reading and football, I played football in highschool and intramural football in college.
+                    I love to code in my free time, using softwares such as HTML, CSS, Javascript, and Python. I got my Eagle Scout award 
+                    in the spring of 2021, and live by the scout law and motto. </p>
+                    <div class="paragraph_4">
+                    <p>One major thing about me is I love being spontaneous and trying new things. So when I see something like a coding 
+                        project I want to try I just start working on it. I love to see all the pieces come together to form something amazing. </p>
+                    </div>
+            </div>
 
-<p>I am going to be filling this text out next assignment, need to think more.</p>
+            <img class="my_img" src="./images/my_photo.JPG" alt="A picture of me">
+        </main>
 
-    <footer>
-        <p>&copy; Nathan's Portfolio - 2022</p>
-        <a href="site-plan.html">Site Plan</a>
-    </footer>
+        <footer>
+            <p>&copy; Nathan's Portfolio - 2022</p>
+            <a href="site-plan.html">Site Plan</a>
+        </footer>
+
 </body>
+
 </html>
